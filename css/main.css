@@ -11,7 +11,6 @@ nav ul, footer ul {
     padding: inherit;
     list-style: none;
     font-weight: bold;
-    text-align: right;
 }
 footer ul{
     font-size: large;
@@ -25,7 +24,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #4c4949;
 }
 a:hover {
     transition-duration: 1s;
@@ -55,9 +54,12 @@ ul.posts li {
 }
 
 .navback {
-    background-color: #DBE9EE;
+    background-color: #aed5ff;
     box-sizing: border-box;
-    padding: 40px;
-    text-align: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+    padding-left: 10px;
+    text-align: left;
     width: 100%;
+    border: 0px solid; 
 }
