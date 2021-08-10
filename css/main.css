@@ -3,16 +3,14 @@ html{
 }
 
 body {
-    margin: 60px auto;
-    width: 70%;
-    
+    margin: 40px auto;
+    width: 80%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: inherit;
     list-style: none;
     font-weight: bold;
-
 }
 
 footer ul{
@@ -49,6 +47,11 @@ p {
 footer {
     border-top: 3px solid #6e93a7;
     font-size: .8em;
+}
+img{
+
+    padding: 30px;
+    box-sizing: initial;
 }
 
 ul.posts { 
