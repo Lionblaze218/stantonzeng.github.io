@@ -17,6 +17,7 @@ a {
     color: #999;
 }
 a:hover {
+    transition-duration: 2s;
     background-color: aqua;
     text-decoration: underline;
 }
@@ -41,4 +42,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+#background{
+    background-color: #FFE6FB;
 }
