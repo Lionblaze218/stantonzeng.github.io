@@ -59,6 +59,9 @@ ul.posts li {
     list-style: none;
 }
 
+.image{
+    border:3px solid #6e93a7;
+}
 .navback {    
     text-align: left;
     width: 100%;
