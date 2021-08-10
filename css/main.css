@@ -26,6 +26,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 70px;
     text-transform: uppercase;
+    border-bottom: 3px solid #6e93a7;
 }
 a {
     text-decoration: none;
@@ -59,9 +60,6 @@ ul.posts li {
     list-style: none;
 }
 
-.image{
-    border:3px solid #6e93a7;
-}
 .navback {    
     text-align: left;
     width: 100%;
