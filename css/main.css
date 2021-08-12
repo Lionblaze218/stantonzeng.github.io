@@ -63,7 +63,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
+.projects{
+    font-size: large;
+    font-family: 'Helvetica';
+    margin: 20px;
+}
 .navback {    
     text-align: left;
     width: 100%;
