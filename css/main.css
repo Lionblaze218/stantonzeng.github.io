@@ -165,8 +165,22 @@ html {
     text-align: left;
     width: 100%;
   }
-  
-@media (min-width: 400px){
+  .face {
+-moz-transform: translate(0px, -6px);
+-webkit-transform: translate(0px, -6px);
+-o-transform: translate(0px, -6px);
+-ms-transform: translate(0px, -6px);
+transform: translate(0px, -1px);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32); 
+box-shadow: 10px -5px 10px 3px rgba(0,0,0,0.2);
+ background-color: #182434;
+ display: block;
+ margin: 55px auto 0;
+ width: 250px;
+ height: 250px;
+ color: #cebdbd;
+  }
+@media (min-width: 600px){
   .first{
     display: grid;
     grid-template-columns: 1fr 0fr; 
@@ -175,7 +189,6 @@ html {
   }
   .face{
     grid-area: face;
-    min-width: 250px;
   }
   .section__subtitle--intro{
     grid-area: section__subtitle--intro;
