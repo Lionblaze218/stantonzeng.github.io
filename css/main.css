@@ -107,6 +107,11 @@ section{
   background-color: #F1FFD9;
 }
 
+.second__text{
+  display:block;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 .section__title {
   margin-bottom: 0.25em;
 }
