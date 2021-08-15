@@ -52,7 +52,6 @@ footer ul {
   padding: inherit;
   list-style: none;
   font-weight: bold;
-  display: flex;
 }
 
 footer ul {
@@ -60,7 +59,6 @@ footer ul {
   font-family: 'Helvetica';
   text-align: center;
   color: #4a4949;
-
 }
 
 nav ul li,
@@ -68,7 +66,6 @@ footer ul li {
   display: inline;
   margin-right: 70px;
   text-transform: uppercase;
-
 }
 
 a {
