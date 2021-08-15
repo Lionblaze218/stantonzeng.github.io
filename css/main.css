@@ -2,14 +2,6 @@ html {
   background-color: #ebf7f7;
 }
 
-*,
-*::before,
-*::after {
-  /* box-sizing: border-box; */
-  ox; */
-  ox; */
-}
-
 :root {
   --ff-primary: 'Montserrat', sans-serif;
   --ff-secondary: 'Montserrat', sans-serif;
