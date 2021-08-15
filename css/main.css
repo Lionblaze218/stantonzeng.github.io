@@ -5,7 +5,9 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  ox; */
+  ox; */
 }
 
 :root {
@@ -50,6 +52,7 @@ footer ul {
   padding: inherit;
   list-style: none;
   font-weight: bold;
+  display: flex;
 }
 
 footer ul {
@@ -104,7 +107,11 @@ section{
 /* intro */
 .first{
   position: relative;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  border: 0px dotted grey;
+  margin-left: 20%;
 }
 
 .second{
@@ -181,15 +188,18 @@ width: 250px;
 height: 250px;
 color: #cebdbd;
 }
+
 @media (min-width: 800px){
 .first{
   display: grid;
-  grid-template-columns: 1fr 0fr; 
-  grid-template-rows: 1fr 0fr; 
-  grid-template-areas: "section__title--intro face" "section__subtitle--intro section__subtitle--intro";
-  align-items: center;  
+  grid-template-columns: 1fr 0fr;
+  grid-template-rows: 1fr 0fr;
+  grid-template-areas:
+    "section__title--intro face"
+    "section__subtitle--intro section__subtitle--intro";
+  align-items: center;
   grid-column-gap: 5em;
-  gap: 0px 40px; 
+  gap: 0px 40px;
 }
 .section__title--intro{
   grid-area: section__title--intro;
